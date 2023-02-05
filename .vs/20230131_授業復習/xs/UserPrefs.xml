@@ -1,11 +1,15 @@
 ﻿<Properties StartupConfiguration="{8D86746D-456D-7969-8055-27384AE8E403}|">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="528a59dc-31a4-4227-8c85-c796a8495dff" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/hellowworld.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c00d8b7a-dfc0-4e45-9cb4-72bb3c4cc509" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/killzone.cs">
     <Files>
-      <File FileName="Assets/Scripts/hellowworld.cs" Line="48" Column="10" />
+      <File FileName="Assets/Scripts/hellowworld.cs" />
+      <File FileName="Assets/Scripts/attouch.cs" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="87" Column="2" />
+      <File FileName="Assets/Scripts/FallFloor.cs" Line="55" Column="10" />
+      <File FileName="Assets/killzone.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
