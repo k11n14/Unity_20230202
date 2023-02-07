@@ -358,6 +358,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/attouch.cs"
 "Assets/Scripts/Cannon.cs"
+"Assets/Scripts/CannonManager.cs"
 "Assets/Scripts/FallFloor.cs"
 "Assets/Scripts/hellowworld.cs"
 "Assets/Scripts/KillZone.cs"

@@ -3,13 +3,16 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c00d8b7a-dfc0-4e45-9cb4-72bb3c4cc509" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/killzone.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Cannon.cs">
     <Files>
+      <File FileName="Assets/killzone.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FallFloor.cs" Line="31" Column="63" />
       <File FileName="Assets/Scripts/hellowworld.cs" />
       <File FileName="Assets/Scripts/attouch.cs" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="87" Column="2" />
-      <File FileName="Assets/Scripts/FallFloor.cs" Line="55" Column="10" />
-      <File FileName="Assets/killzone.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" />
+      <File FileName="Assets/Scripts/KillZone.cs" Line="63" Column="41" />
+      <File FileName="Assets/Scripts/Cannon.cs" Line="19" Column="6" />
+      <File FileName="Assets/Scripts/CannonManager.cs" Line="27" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

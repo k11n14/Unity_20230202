@@ -62,6 +62,7 @@
     <Compile Include="Assets/Scripts/hellowworld.cs" />
     <Compile Include="Assets/Scripts/KillZone.cs" />
     <Compile Include="Assets/Scripts/Cannon.cs" />
+    <Compile Include="Assets/Scripts/CannonManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

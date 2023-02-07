@@ -29,9 +29,6 @@ public class FallFloor : MonoBehaviour
         initialRotation = transform.rotation; //追加
         floorMeshRenderer = transform.GetChild(0).GetComponent<MeshRenderer>(); // 追加
         initialColor = floorMeshRenderer.material.color; // 追加
-
-
-
     }
 
     // Update is called once per frame

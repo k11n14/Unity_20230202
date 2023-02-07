@@ -47,7 +47,22 @@ public class KillZone : MonoBehaviour
 //OnTrigger〜系には下記の種類がある（OnCollider〜系と同じ）
 //| OnTriggerEnter | 他のColliderが触れたとき true 
 //| OnTriggerExit | 他のColliderが離れたとき true 
-//| OnTriggerStay | 他のColliderと触れている間 true 
+//| OnTriggerStay | 他のColliderと触れている間 true
+
+//OnCollision〜とOnTrigger〜の違い
+
+//              必要な物                      すり抜け
+//OnCollision〜 Collider ＋ Rigidbody        すり抜けない
+//OnTrigger〜   ColliderのIs Triggerにチェック すり抜ける 
+
+
+//OnTrigger〜はすり抜ける事が出来るので「この領域に入ったら何かする」みたいな時によく使う。
+
+//SpawnPointの設定
+//KillZoneスクリプトをKillZoneオブジェクトにアタッチする
+//SpawnPointという空のGameObjectを作り、落ちる床手前に配置
+//SpawnPointをKillZoneのSpawnPointフィールドにアサイン
+
 
 
 

@@ -11,7 +11,7 @@ public class Cannon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Shot(20f); // テスト用
+        //Shot(20f); // テスト用
     }
 
     // Update is called once per frame
@@ -20,7 +20,7 @@ public class Cannon : MonoBehaviour
         
     }
 
-    void Shot(float power)
+    public void Shot(float power)
     {
         //CannonBallプレハブをInstantiateでインスタンス化
         //Instantiate(インスタンス元のオブジェクト, 生成時のPosition, 生成時のRotation);
@@ -64,3 +64,15 @@ public class Cannon : MonoBehaviour
 //https://docs.unity3d.com/ja/current/ScriptReference/Object.Instantiate.html
 
 //CannonオブジェクトにCannonにスクリプトをアタッチして、Muzzle、CannonBallプレハブをそれぞれアサインする
+
+//プレイヤーの侵入判定
+//KillZoneを作った時のように空のGameObjectを用意する。
+//名前はCannonShotAreaとした。
+//BoxColliderを追加して坂を囲むようにColliderを調節する
+//IsTriggerにチェックを入れる
+//コライダーの調節は動画のようにEdit Colliderボタンを押して、シーン上で調整出来る。
+//3D空間は奥行きや高さが分かりづらい事があるので、シーンギズモをアイソメトリックに切り替えて調節・配置する
+//CannonManagerスクリプトを作成する
+
+
+
