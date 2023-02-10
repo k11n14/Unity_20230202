@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/attouch.cs" />
+    <Compile Include="Assets/Scripts/CannonBall.cs" />
     <Compile Include="Assets/Scripts/CannonManager.cs" />
     <Compile Include="Assets/Scripts/FallFloor.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
